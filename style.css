@@ -1,0 +1,305 @@
+body::-webkit-scrollbar {
+    display: none;	
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.logo sup{
+    font-size: 8px;
+}
+
+.menu{
+    width: 50%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30vh;
+    padding-left: 2%;
+}
+
+.navbar ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar li{
+    padding: 2vh;
+    font-size: 15px;
+}
+
+.actionbtn{
+    width: 6%;
+    height: 6vh;
+    border-radius: 30px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+} 
+
+.content{
+    width: 100%;
+}
+
+.content1{
+    width: 95%;
+    height: 80vh;
+    margin-left: 5vh;
+    margin-top:10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.desc{
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin-left:25vh;
+}
+
+.desc h1{
+    margin-top:15vh ;
+    font-size: 50px;
+}
+
+.desc p{
+    padding:5px;
+    font-size: 18px;
+    padding-left: 1px;
+    margin-top: -2vh;
+}
+
+.info{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+
+.info button{
+    width: 45%;
+    height: 6vh;
+    border-radius: 30px;
+    background: black;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.info p{
+    padding-left: 15px;
+    font-size: 16px;
+    padding-top:15px;
+    font-weight: bold;
+}
+
+.content1 img{
+    margin-top: 5vh;
+    margin-left: 15vh;
+    width: 500px;
+    height:428px;
+} 
+
+.features{
+    width: 100%;
+    height: 200px;
+    background:#f3f3f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.feat{
+    width: 25%;
+    height: 25vh;
+    margin-top:3vh;
+}
+
+.feathead{
+    display: flex;
+    flex-direction: row;
+}
+
+.ball{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: black;
+    margin-top: 1.5vh;
+}
+
+.feat h4{
+    padding-left: 10px;
+}
+
+.feat p{
+    margin-top: 0;
+}
+
+.content2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    flex-direction: row;
+    background: black;
+    color: white;
+}
+
+.content2 img{
+    width: 535px;
+    height: 428px;
+    margin-top: 15vh;
+    margin-left: 15vh;
+}
+
+.cont2desc{
+    width: 40%;
+    height: 350px;
+    margin-top: 20vh;
+    margin-left: 15vh;
+}
+
+.cont2desc p{
+    font-size:16px;
+}
+
+.cont2desc ul{
+    margin-top: 5vh;
+    line-height: 30px;
+}
+
+.cont2desc li{
+    margin-left: -22px;
+}
+
+.feedbacks{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 140px;
+}
+
+.commentbox{
+    width: 280px;
+    height: 270px;
+    background: #f3f3f3;
+}
+
+.commentbox p{
+    width: 80%;
+    padding-left: 10px;
+}
+
+.social{
+    width: 95%;
+    height:140px ;
+    margin-left: 9px;
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.social p{
+    margin-top: -15px;
+}
+
+.feedback_icons{
+    margin-top: 115px;
+    margin-left: 100px;
+    right: 0;
+}
+
+.profiles p{
+    margin-left: -10px;
+}
+
+.content3{
+    width: 100%;
+    height: 588px;
+    background-image: url(./cta.png);
+}
+
+.footer{
+    width: 100%;
+    height: 348px;
+    background: black;
+    color: white;
+    position:absolute;
+}
+
+.footer_content{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.footer_logo{
+    margin-bottom: 90px;
+    font-size: 15px;
+}
+
+.footer li{
+    list-style: none;
+    line-height: 25px;
+}
+
+.footer ul{
+    padding:1px;
+}
+
+.footer input{
+    width: 360px;
+    height: 48px;
+    border-radius: 40px;
+    padding-left: 15px;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.Subscribe{
+    width: 30%;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 20px;
+}
+
+.Subscribe p{
+    color: rgba(255, 255, 255, 0.301);
+}
